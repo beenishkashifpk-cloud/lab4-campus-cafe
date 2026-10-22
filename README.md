@@ -21,3 +21,11 @@ Your Name   Beenish Kashif
 <img width="569" height="376" alt="image" src="https://github.com/user-attachments/assets/a0d142e8-d624-49f0-8665-990c7904d25f" />
 <img width="628" height="353" alt="image" src="https://github.com/user-attachments/assets/7536a05c-124e-44bd-93d3-3630c1598672" />
 <img width="606" height="439" alt="image" src="https://github.com/user-attachments/assets/c4a5655e-8fa8-48f4-a212-a50c708c49b8" />
+
+**Screenshots (4 total)**
+Screenshot 1: GitHub repository home page.
+
+
+GitHub Branches page 
+<img width="1327" height="664" alt="image" src="https://github.com/user-attachments/assets/46535ddf-a88c-4803-991c-7d650b472ce0" />
+
