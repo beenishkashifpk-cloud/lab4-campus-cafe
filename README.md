@@ -13,3 +13,6 @@ HTML5, CSS3 and a little JavaScript. No frameworks.
 ## Author
 Your Name   Beenish Kashif 
 , Roll No.   24l-BSCS-0020
+
+**Live site:** https://beenishkashifpk-cloud.github.io/lab4-campus-cafe/
+**Repository:** https://github.com/beenishkashifpk-cloud/lab4-campus-cafe
