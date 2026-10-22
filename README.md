@@ -22,10 +22,15 @@ Your Name   Beenish Kashif
 <img width="628" height="353" alt="image" src="https://github.com/user-attachments/assets/7536a05c-124e-44bd-93d3-3630c1598672" />
 <img width="606" height="439" alt="image" src="https://github.com/user-attachments/assets/c4a5655e-8fa8-48f4-a212-a50c708c49b8" />
 
+__________________________________________________________________________________________________________________________________
 **Screenshots (4 total)**
-Screenshot 1: GitHub repository home page.
-
-
+**Screenshot 1: **
+GitHub repository home page.
+<img width="1313" height="730" alt="image" src="https://github.com/user-attachments/assets/5b8cef1c-1d37-4ac4-95fd-bcdc1d40030c" />
 GitHub Branches page 
 <img width="1327" height="664" alt="image" src="https://github.com/user-attachments/assets/46535ddf-a88c-4803-991c-7d650b472ce0" />
+Screenshot 3: Lighthouse score
+<img width="1332" height="716" alt="image" src="https://github.com/user-attachments/assets/d6a5aff7-34e9-4e11-825a-c7ca5a5c6424" />
+Screenshot 4: Live site par Network tab
+<img width="1298" height="678" alt="image" src="https://github.com/user-attachments/assets/77c32c3d-bf32-40c8-81c7-7871ab2b6444" />
 
