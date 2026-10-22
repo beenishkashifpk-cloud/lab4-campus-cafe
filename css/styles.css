@@ -63,9 +63,18 @@ h1 + p {
 
 /* ---------- 4. Header and navigation ---------- */
 .site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   background: var(--brand-dark);
   color: #fff;
   padding: 12px 24px;
+}
 }
 .brand {
   color: #fff;
@@ -76,28 +85,51 @@ h1 + p {
 }
 .nav-list {
   list-style: none;
-  margin: 12px 0 0;
+  margin: 0;
   padding: 0;
+  display: flex;
+  gap: 8px;
 }
-.nav-list li { display: inline-block; }
-.nav-list a {
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  padding: 8px 14px;
-  border-radius: 8px;
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
 }
-.nav-list a:not(.active):hover {
-  background: rgba(255, 255, 255, 0.18);
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
 }
-.nav-list a.active {
-  background: var(--accent);
-  color: var(--text);
-  font-weight: 700;
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+}
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
 }
 
 /* ---------- 5. Footer ---------- */
 .site-footer {
+  background: var(--brand-dark);
+  color: #fff;
+  padding: 20px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 24px;
+} {
   background: var(--brand-dark);
   color: #fff;
   padding: 20px 24px;
@@ -249,9 +281,17 @@ input[placeholder]:not(:placeholder-shown):invalid {
 
 /* sticky: stays at the top while the page scrolls */
 .site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
   position: sticky;
   top: 0;
   z-index: 100;
+  background: var(--brand-dark);
+  color: #fff;
+  padding: 12px 24px;
 }
 
 /* absolute: placed inside its nearest positioned parent */
@@ -309,6 +349,12 @@ input[placeholder]:not(:placeholder-shown):invalid {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--brand-dark);
+  color: #fff;
+  padding: 12px 24px;
 }
 .brand {
   display: flex;
