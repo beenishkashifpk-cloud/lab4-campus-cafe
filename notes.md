@@ -12,3 +12,5 @@
 
 ## Why is this address http and not https?
 HTTPS protects data while it travels across a network, so other people cannot read or change it. My traffic to 127.0.0.1 only goes to my own computer and never leaves it, so encryption is not needed here.
+## Screenshot
+![Network tab headers for index.html](images/task1-headers.png)
