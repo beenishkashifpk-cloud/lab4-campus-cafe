@@ -54,3 +54,18 @@ An id selector (#main p) beat the class selector (.hero p) even though .hero p c
 
 
 images/bug-lighthouse-after.png
+
+
+## Live site observations (Lab 4, Task 7)
+
+1. Compare localhost (Task 1) with the live site: protocol, server header, and Remote Address. What changed and why?
+   On localhost, the protocol was HTTP, the server was Live Server, and the Remote Address was 127.0.0.1:5500. On the live site, the protocol changed to HTTPS, the server header changed to GitHub Pages (GitHub's web server), and the Remote Address changed to a public IP address. This changed because the website is now hosted on GitHub's remote servers and served over the internet with TLS encryption rather than running locally on my machine.
+
+2. What does the padlock and certificate tell the visitor, and what could an attacker on the same Wi-Fi do if the site were plain http?
+   The padlock and SSL certificate inform the visitor that the connection is encrypted, secure, and authenticated as belonging to GitHub Pages. If the site were plain HTTP, an attacker on the same Wi-Fi network could perform a Man-in-the-Middle (MitM) attack to eavesdrop on unencrypted data traffic, steal sensitive info, or modify the web page content in transit.
+
+3. Why was the Saved orders table empty on the live site, even though you saved orders on localhost? (Hint: storage belongs to an origin.)
+   The Saved orders table was empty because browser Web Storage (localStorage) is strictly bound to a specific origin (Protocol + Domain + Port). `http://127.0.0.1:5500` and `https://<YOUR-USERNAME>.github.io` are completely different origins, so the browser isolates their storage and does not share data between them.
+
+4. Which HTTP status code did the missing page return, and who sent it?
+   The missing page returned a `404 Not Found` HTTP status code. It was sent by GitHub Pages' web server.
