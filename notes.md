@@ -51,3 +51,6 @@ An id selector (#main p) beat the class selector (.hero p) even though .hero p c
 ![Lighthouse accessibility score 67 on bugs.html](images/bug-lighthouse-before.png)
 
 ![W3C validator errors on bugs.html](images/bug-validator-before.png)
+
+
+images/bug-lighthouse-after.png
